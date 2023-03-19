@@ -96,7 +96,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '友情链接', link: '/friends/' },
         ],
       },
-      { text: '关于', link: '/about/' },
       {
         text: '开发笔记',
         link: '/pages/beb6c0bd8a66cea6/',
@@ -171,7 +170,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/logo.png',
+      avatar: '/xiaoshi/img/logo.png',
       name: '小狮ye',
       slogan: '宇宙中，你是否也曾看到我',
     },
