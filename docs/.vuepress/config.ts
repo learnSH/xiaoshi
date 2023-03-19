@@ -85,7 +85,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
-      {
+  /*    {
         text: '更多',
         link: '/more/',
         items: [
@@ -95,14 +95,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '友情链接', link: '/friends/' },
         ],
-      },
+      },*/
       {
         text: '笔记',
         link: '/pages/beb6c0bd8a66cea6/',
         items: [
           { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-          { text: 'java开发笔记', link: '/page/java-programming/' },
-          { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+        ],
+      },
+      {
+        text: '后端',
+        link: '/page/java-programming/',
+        items: [
+          { text: 'java笔记', link: '/page/java-programming/' },
+          { text: 'python笔记', link: '/page/python-programming/' },
         ],
       },
       {
