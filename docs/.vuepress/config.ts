@@ -98,17 +98,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },*/
       {
         text: '笔记',
-        link: '/pages/beb6c0bd8a66cea6/',
+        link: '/pages/java-programming/',
         items: [
           { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        ],
-      },
-      {
-        text: '后端',
-        link: '/page/java-programming/',
-        items: [
           { text: 'java笔记', link: '/page/java-programming/' },
           { text: 'python笔记', link: '/page/python-programming/' },
+          { text: 'Linux笔记', link: '/page/linux-programming/' },
+          { text: 'Docker笔记', link: '/page/docker-programming/' },
         ],
       },
       {
