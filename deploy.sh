@@ -19,6 +19,6 @@ git init
 git add -A
 git commit -m "deploy, $commit_info"
 git push -f $push_addr HEAD:$push_branch
-
+# git push -f https://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@github.com/learnSH/xiaoshi.git HEAD:master
 cd -
 rm -rf $dist_path

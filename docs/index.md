@@ -14,7 +14,7 @@ features: # 可选的 t
     imgUrl: /img/shizi1.png # 可选
   - title: 后端
     details: java/python/golang，后端语言相关技术
-    link: /ui/
+    link: /backend/
     imgUrl: /img/shizi2.png
   - title: 技术
     details: 技术文档、教程、技巧、系统、中间件等总结等文章

@@ -63,16 +63,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: 'JS设计模式总结',
                 link: '/pages/4643cd/',
               },
+              { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+              { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
             ],
           },
         ],
       },
       {
-        text: '页面',
-        link: '/ui/',
+        text: '后端',
+        link: '/backend/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { text: '数据结构', link: '/pages/dataStructure/' },
         ],
       },
       {
@@ -85,22 +86,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
-  /*    {
+      {
         text: '更多',
         link: '/more/',
         items: [
           { text: '学习', link: '/pages/f2a556/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
           { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '友情链接', link: '/friends/' },
+          { text: '杂货铺', link: '/pages/webUtils9a66cea67c2/' },
         ],
-      },*/
+      },
       {
         text: '笔记',
-        link: '/pages/java-programming/',
+        link: '/pages/note-programming/',
         items: [
-          { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-          { text: 'java笔记', link: '/page/java-programming/' },
+          { text: 'java笔记', link: '/page/note-programming/' },
           { text: 'python笔记', link: '/page/python-programming/' },
           { text: 'Linux笔记', link: '/page/linux-programming/' },
           { text: 'Docker笔记', link: '/page/docker-programming/' },
@@ -323,11 +323,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          clientID: '0cfaa12df233eb7791a1',
+          clientSecret: 'f16942fdb79a79a4c5c0ad9f9ffb346b1d7f8dfc',
+          repo: 'xiaoshi', // GitHub 仓库
+          owner: 'learnSH', // GitHub仓库所有者
+          admin: ['shi'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
