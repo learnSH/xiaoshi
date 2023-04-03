@@ -98,9 +98,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '笔记',
-        link: '/pages/note-programming/',
+        link: '/page/java-programming/',
         items: [
-          { text: 'java笔记', link: '/page/note-programming/' },
+          { text: 'java笔记', link: '/page/java-programming/' },
           { text: 'python笔记', link: '/page/python-programming/' },
           { text: 'Linux笔记', link: '/page/linux-programming/' },
           { text: 'Docker笔记', link: '/page/docker-programming/' },
@@ -327,7 +327,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           clientSecret: 'f16942fdb79a79a4c5c0ad9f9ffb346b1d7f8dfc',
           repo: 'xiaoshi', // GitHub 仓库
           owner: 'learnSH', // GitHub仓库所有者
-          admin: ['shi'], // 对仓库有写权限的人
+          admin: ['learnSH'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
