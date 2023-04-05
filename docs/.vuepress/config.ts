@@ -22,8 +22,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "",
-      description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
+      title: "小狮ye",
+      description: '技术博客',
     }
   },
 
@@ -71,16 +71,40 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '后端',
         link: '/backend/',
         items: [
-          { text: '数据结构', link: '/pages/dataStructure/' },
+          {
+            text: '后端文章',
+            items: [
+              { text: '数据结构', link: '/pages/dataStructure/' },
+            ],
+          },
+          {
+            text: '后端笔记',
+            items: [
+              { text: 'java笔记', link: '/page/java-programming/' },
+              { text: 'python笔记', link: '/page/python-programming/' },
+            ],
+          }
+
         ],
       },
       {
-        text: '技术',
+        text: '系统',
         link: '/technology/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: '系统文章',
+            items: [
+
+            ],
+          },
+          { text: '系统笔记',
+            items: [
+              { text: 'Linux笔记', link: '/page/linux-programming/' },
+              { text: 'Docker笔记', link: '/page/docker-programming/' },
+              { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+              { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+              { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+            ],
+          },
         ],
       },
       {
@@ -88,27 +112,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/more/',
         items: [
           { text: '学习', link: '/pages/f2a556/' },
-          { text: '友情链接', link: '/friends' },
-          { text: '杂货铺', link: '/pages/webUtils9a66cea67c2' },
-        ],
-      },
-      {
-        text: '笔记',
-        link: '/page/java-programming/',
-        items: [
-          { text: 'java笔记', link: '/page/java-programming/' },
-          { text: 'python笔记', link: '/page/python-programming/' },
-          { text: 'Linux笔记', link: '/page/linux-programming/' },
-          { text: 'Docker笔记', link: '/page/docker-programming/' },
-        ],
-      },
-      {
-        text: '索引',
-        link: '/archives/',
-        items: [
-          { text: '分类', link: '/categories/' },
-          { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' },
+          { text: '友情链接', link: '/friends/' },
+          { text: '杂货铺', link: '/pages/urls8a66cea67c1/' },
         ],
       },
       { text: '关于', link: '/pages/7398de/' },
@@ -165,7 +170,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       bgTimeColor: true,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
       bgTimeColorArray: ['transparent', 'rgba(255, 148, 48, .2)', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .5)'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效。提示：如果不想要这个效果，但是又想要时间窗口提示效果，则改为 ['transparent', 'transparent', 'transparent', 'transparent']
       descFade: true,   // 是否开启图片中间描述的淡入效果，默认为 false
-      desc: [],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFade 为 true 生效
+      desc: ["心有所信，方能行远；学有所悟，而后笃行。"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFade 为 true 生效
       descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
       descFadeInTime: 200,  // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
       descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
@@ -201,7 +206,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: '/xiaoshi/img/logo.png',
-      name: '小狮ye',
+      name: 'xiaoshiye',
       slogan: '宇宙中，你是否也曾看到我',
     },
 
