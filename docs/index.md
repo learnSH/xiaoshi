@@ -77,3 +77,6 @@ features: # 可选的 t
 - **GitHub**: <https://github.com/learnSH>
 
 </br>  -->
+<ClientOnly>
+  <WebInfo />
+</ClientOnly>
