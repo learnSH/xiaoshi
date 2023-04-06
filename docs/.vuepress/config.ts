@@ -217,7 +217,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:543582490@qq.com',
+          link: 'mailto:shiworkwork@126.com',
         },
         {
           iconClass: 'icon-github',
