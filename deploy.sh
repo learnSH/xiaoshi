@@ -17,6 +17,8 @@ cd $dist_path
 
 git init
 git add -A
+git config user.name shi
+git config user.email 543582490@qq.com
 git commit -m "deploy, $commit_info"
 git push -f $push_addr HEAD:$push_branch
 cd -
