@@ -24,7 +24,7 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:pages # 推送到github
+git push -f $githubUrl master:pages # 推送到github test
 #git push -f git@github.com:miluluyo/vdoingBlog.git master:gh-pages
 
 
