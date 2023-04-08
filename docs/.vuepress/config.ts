@@ -6,7 +6,7 @@ import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 import { UserPlugins } from 'vuepress/config'
 import { readFileList, readTotalFileWords, readEachFileWords } from './webSiteInfo/readFile';
-
+const base = require('./config/base.js');
 
 const DOMAIN_NAME = 'xiaoshiye.com' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
@@ -15,7 +15,7 @@ const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   //theme: 'vdoing', // 使用npm主题包
   theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
-  base: '/xiaoshi/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: base, // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   locales: {
     '/': {
       lang: 'zh-CN',
