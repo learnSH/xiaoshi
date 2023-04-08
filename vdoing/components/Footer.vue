@@ -12,7 +12,7 @@
         </div>
 
         <template v-if="footer">
-            | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
+            Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
             <span v-html="footer.copyrightInfo"></span>
         </template>
     </div>
