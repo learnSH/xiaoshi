@@ -1,9 +1,6 @@
-/**
- * 提示：如您想使用JS版本的配置文件可参考：https://github.com/xugaoyi/vuepress-theme-vdoing/tree/a2f03e993dd2f2a3afdc57cf72adfc6f1b6b0c32/docs/.vuepress
- */
 import { resolve } from 'path'
 import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
-import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
+import { VdoingThemeConfig } from 'vdoing/types'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
@@ -11,13 +8,13 @@ import { UserPlugins } from 'vuepress/config'
 import { readFileList, readTotalFileWords, readEachFileWords } from './webSiteInfo/readFile';
 
 
-const DOMAIN_NAME = 'xugaoyi.com' // 域名 (不带https)
+const DOMAIN_NAME = 'xiaoshiye.com' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-  theme: 'vdoing', // 使用npm主题包
-  // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
+  //theme: 'vdoing', // 使用npm主题包
+  theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
   base: '/xiaoshi/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   locales: {
     '/': {
@@ -128,7 +125,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     editLinks: false, // 启用编辑
     editLinkText: '编辑',
 
-    //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 
     // category: false, // 是否打开分类功能，默认true
     // tag: false, // 是否打开标签功能，默认true
@@ -210,7 +206,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       slogan: '宇宙中，你是否也曾看到我',
     },
 
-    // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
