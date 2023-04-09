@@ -201,8 +201,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/shakespark_Realistic_3d_render_of_a_happy_Fluffy_cute_baby_lion_641775c1-e667-43d0-8acf-8f41a4d51fdf-pixian.6ob5ui463ik0.png',
-      name: 'xiaoshiye',
+      avatar: 'https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/shakespark_Realistic_3d_render_of_a_happy_Fluffy_cute_baby_lion_641775c1-e667-43d0-8acf-8f41a4d51fdf.1xboo0thnmow.png',
+      name: '小狮ye',
       slogan: '宇宙中，你是否也曾看到我',
     },
 
