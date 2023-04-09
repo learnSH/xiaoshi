@@ -16,7 +16,6 @@ if [ -z "$VDOING" ]; then
   githubUrl=git@github.com:miluluyo/vdoingBlog.git
 else
   msg='来自 github actions的自动部署'
-  https://github.com/miluluyo/vdoingBlog.git
   githubUrl=https://learnSH:${VDOING}@github.com/learnSH/xiaoshi-note.git
   git config --global user.name "shi"
   git config --global user.email "shiworkwork@126.com"

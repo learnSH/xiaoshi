@@ -201,7 +201,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/xiaoshi/img/logo.png',
+      avatar: 'https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/20230405/logo.3mydhhm5sm00.png',
       name: 'xiaoshiye',
       slogan: '宇宙中，你是否也曾看到我',
     },
