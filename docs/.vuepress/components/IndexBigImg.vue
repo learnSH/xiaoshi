@@ -66,7 +66,7 @@ export default {
             canvas.id = "canvas";
             canvas.style.top = this.bubblePosition + "%";
             document.getElementsByClassName(banner)[0].append(canvas);
-            this.canvasBubble();
+            //this.canvasBubble();
         }
     },
     watch: {
