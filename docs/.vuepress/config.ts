@@ -79,6 +79,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'java笔记', link: '/page/java-programming/' },
               { text: 'python笔记', link: '/page/python-programming/' },
+              { text: 'maven笔记', link: '/page/maven-programming/' }
             ],
           }
 
