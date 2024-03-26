@@ -29,7 +29,7 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">个人号</p>
-    <img src="https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/wechat.zdnce12ks6o.webp"  style="width:100%;" />
+    <img src="https://learnSH.github.io/picx-images-hosting/wechat.2egrbtcq11us.png"  style="width:100%;" />
     This is me, becoming stronger together！
     </p>
     </div>`,

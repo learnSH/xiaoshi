@@ -117,7 +117,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '关于', link: '/pages/7398de/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: 'https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/shakespark_Realistic_3d_render_of_a_happy_Fluffy_cute_baby_lion_641775c1-e667-43d0-8acf-8f41a4d51fdf.2g76o59f4dwk.webp', // 导航栏logo
+    logo: 'https://learnSH.github.io/picx-images-hosting/20230405/logo.3mydhhm5sm00.png', // 导航栏logo
     //repo: '/learnSH', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -135,8 +135,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
     bodyBgImg: [
-      'https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/20230405/1107810.3o6s5b0ehnc0.6hwglykwvkw0.webp',
-      'https://cdn.staticaly.com/gh/learnSH/picx-images-hosting@master/20230405/wallhaven-y8622k.6x9mr495ch80.16rw88b401kw.webp',
+      'https://learnSH.github.io/picx-images-hosting/1107810.4ebwfh3x1hc0.webp',
+      'https://learnSH.github.io/picx-images-hosting/wallhaven-y8622k.5fw7ea3jahk0.webp',
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     bodyBgImgInterval: 10, // body多张背景图时的切换间隔, 默认15，单位s
